@@ -1,0 +1,188 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* THEESE ARE HEADER PROPERTIES */
+
+.header, .footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #1f2937;
+    padding: 10px 10%;
+}
+.header-logo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+}
+.header h3 {
+    color: white;
+}
+.navigation-bar{
+    display: flex;
+    margin-left: auto;
+    gap: 15px;
+}
+.header ul li {
+    list-style-type: none;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* THEESE ARE SECTION 1 PROPERTIES */
+
+.section-1 {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-content: center;
+    background-color: #1f2937;
+    padding: 80px 10%;
+    gap: 20px;
+}
+h1 {
+    color: #f9faf8; font-size: 48px;
+    font-weight: extra-bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-par-but p {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.sign-up, .sign-up-blue {
+    width: 80px;
+    height: 30px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+}
+.separator {
+    display: flex;
+    flex: 1 1 auto;
+}
+.placeholder {
+    background-color: aliceblue;
+    width: 300px;
+    height: auto;
+}
+.placeholder > img,
+.img-text {
+    width: 100%;
+    height: 100%;
+}
+/* THEESE ARE SECTION 2 PROPERTIES */
+
+.section-2 {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-2 h2 {
+    margin: 20px;
+}
+.images-container {
+    display: flex;
+    gap: 20px;
+}
+.img-text {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 150px;
+}
+.img-text img {
+    width: auto;
+    height: 80px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 5px;
+}
+.img-text .text {
+    font-size: x-small;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* THEESE ARE SECTION 3 PROPERTIES */
+.section-3 {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 50px 100px;
+}
+.the-quote {
+    width: 400px;
+    margin: 80px auto 60px auto;
+    flex: 1 1 100px;
+}
+.the-quote q {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.the-quote p {
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* THEESE ARE SECTION 4 PROPERTIES */
+
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 100px;
+}
+
+.blue-container {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    padding: 30px 60px;
+    border-radius: 5px;
+    gap: 100px;
+}
+.call-to-action {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.call-to-action > span {
+    font-size: 25px;
+}
+
+.sign-up-blue {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+/* THEESE ARE FOOTER PROPERTIES */
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.copyright {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+}
